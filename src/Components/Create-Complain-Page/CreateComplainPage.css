@@ -1,0 +1,78 @@
+/* Container */
+.complain-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+/* Form */
+.complain-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Textarea Fields */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0d6efd;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-input:focus {
+  border-color: #000;
+  outline: none;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #0d6efd;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #084298;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .complain-container {
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .form-input {
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+  }
+}
